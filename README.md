@@ -8,3 +8,6 @@
 * Once we focus back to the filed it will go to the normal mode. <br>
 * email-id also have regular expression validation script.
 
+> Screenshots
+
+![image](https://user-images.githubusercontent.com/52199294/62980309-d492fd80-be43-11e9-8064-6398a1038933.png)
