@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Shopping</title>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+		.h2_heading{
+			text-align: center;
+		}
+		.form_style{
+			
+			padding: 50px;
+		}
+		.input_style{
+			height: 30px;
+			width: 200px;
+		}
+		.button_submit{
+			height: 35px;
+			background-color: orange;
+			color: black;
+		}
+		.button_submit_form{
+			height: 35px;
+			background-color: lightgreen;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align:center">M/s. Universal Shopping Center</h1>
+	<h2 class="h2_heading">19, Hosur Road, Bangalore</h2>
+	<hr>
+	<img src="" alt="shoppingCenter Image" height="100px" width="500px">
+	<h2 class="h2_heading">Registration Form</h2>
+	<center>
+	<div class="form_style">
+	<form method="POST" name="online_Form" onsubmit="return(formValidate())">
+		<table>
+			<tr>
+				<td>Name: </td>
+				<td>
+					<input type="text" name="fname" id="name_id" class="input_style" onkeypress="return(alphabetValidation(event))">
+				</td>
+				<td>
+					<span id="name_span"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone No :</td>
+				<td>
+					<input type="text" name="phone_no" class="input_style" onkeypress="return(phoneNoValidation(event))" id="phone_no_field">
+				</td>
+				<td>
+					<span id="phone_span"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td>
+					<input class="input_style" type="text" name="city_name" id="city_id" onkeypress="return(alphabetValidation(event))">
+				</td>
+				<td>
+					<span id="city_span"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td>
+					<input type="text" class="input_style" name="address" id="add_id">
+				</td>
+				<td>
+					<span id="address_span"></span>
+				</td>
+			</tr>
+			<tr>
+			</tr>
+			<tr>
+				<td><input type="submit" value="SUBMIT" class="button_submit_form" id="submit_button_form"></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+	</center>
+	<hr>
+	<h2>Subscribe to get Updates</h2>
+	<form method="POST" name="sub_form" onsubmit="return(subscribe_validation())">
+		<input type="text" id="email_id" class="input_style" placeholder="Enter your email" name="email">
+
+		<input type="text" id="reg_id" class="input_style" placeholder="enter your reg id" name="reg" onkeypress="return(phoneNoValidation(event))">
+
+		<input type="submit" value="SUBMIT" class="button_submit">
+	</form>
+	<script type="text/javascript" src="retailerStore.js">
+	</script>
+</body>
+</html>
