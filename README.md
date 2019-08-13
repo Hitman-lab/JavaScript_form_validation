@@ -1,5 +1,5 @@
 # JavaScript FormValidation
-<hr>
+
 
 * In this example we have used javascript to validate the basic html form  <br>
 * form field accepts both 'text' and 'numbers' as well <br>
