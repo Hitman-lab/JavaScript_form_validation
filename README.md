@@ -1,6 +1,6 @@
 # JavaScript FormValidation
 
-Click Here to view live-> 
+Click Here to view live->  https://hitman-lab.github.io/JavaScript_form_validation/.
 
 
 * In this example we have used javascript to validate the basic html form  <br>
